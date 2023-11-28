@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness gym</title>
+    <style>
+        body {
+            background: url('img/backg.jpg');
+            margin: 0px;
+            padding: 0px;
+            background-repeat: no-repeat;
+            height: 1000px;
+        }
+
+        .left {
+            display: inline-block;
+            position: absolute;
+            left: 15px;
+            color: white;
+            /* border: 2px solid red; */
+        }
+
+        .right {
+            position: absolute;
+            right: 15px;
+            width: 155px;
+            top: 26px;
+            color: white;
+            /* border: 2px solid red; */
+        }
+
+        .mid {
+            display: block;
+            width: 50%;
+            margin: auto;
+            margin-top: 12px;
+            color: white;
+            /* border: 2px solid red; */
+        }
+
+        .logoimage {
+            display: block;
+            width: auto;
+            margin: auto;
+            margin-top: 1px;
+        }
+
+        .navbar {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 0px 40px;
+            padding: 0px 0px;
+            font-size: 20px;
+
+        }
+
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            padding: 0px 0px;
+        }
+
+        .navbar a:hover,
+        .navbar a.active {
+            color: purple;
+        }
+
+        .navbar a .home:visited {
+            color: rgb(30, 128, 87);
+        }
+
+        .right button {
+            border-radius: 8px;
+            margin: 0px 5px;
+            padding: 4px 7px;
+            cursor: pointer;
+        }
+
+        .container h1 {
+            color: white;
+        }
+
+        .container {
+            /* border: 2px solid red; */
+            display: inline-block;
+            width: auto;
+            margin: 150px 121px;
+            padding: 13px 30px;
+        }
+
+        .container .formgroup input {
+            display: block;
+            width: 85%;
+            border-radius: 8px;
+            text-align: center;
+            font-size: 16px;
+            margin: auto;
+            margin: 7px;
+        }
+
+        .btn {
+            margin: auto;
+            font-size: 15px;
+            width: 282px;
+            margin: 0px 34px;
+            cursor: pointer;
+            border-radius: 16px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img class="logoimage" src="img/logogym1.jpg" alt="wait" width="70" height="50">
+            <div class="gymname">Fitness GYM</div>
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Carrer</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button>contact us</button>
+            <button>log in</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>Join the best gym of indore.</h1>
+        <form action="nobackend">
+            <div class="formgroup">
+                <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="formgroup">
+                <input type="number" name="Age" placeholder="Age">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Address" placeholder="Address">
+            </div>
+            <div class="formgroup">
+                <input type="number" name="number" placeholder="Mobile number">
+            </div>
+            <div class="formgroup">
+                <input type="text" name="Email" placeholder="Email">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>

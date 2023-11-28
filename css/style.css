@@ -1,0 +1,33 @@
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    color: white;
+    border: 2px solid red;
+}
+.right{
+    position: absolute;
+    right: 15px;
+    width: 136px;
+    top: 11px;
+    color: white;
+    border: 2px solid red;
+}
+.mid{
+    display: block;
+    width: 50%;
+    margin: auto;
+    margin-top: 12px;
+    color: white;
+    border: 2px solid red;
+}
+.logoimage{
+display: block;
+width: auto;
+margin: auto;
+margin-top: 1px;
+}
+.gymname{
+
+}
